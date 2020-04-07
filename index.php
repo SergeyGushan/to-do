@@ -41,7 +41,7 @@ session_start();
                     alert(data);
                 }, "text")
             } else {
-                let message_info = {'error': ' Авторезуйтесь'};
+                let message_info = {'error': ' Авторизуйтесь'};
                 message(message_info);
             }
         }
