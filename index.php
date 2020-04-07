@@ -143,7 +143,7 @@ session_start();
             if(name != '' && email != '' && task != '') {
                 let reg = /^([A-Za-z0-9_\-.])+\@([A-Za-z0-9_\-.])+\.([A-Za-z]{2,4})$/;
                 if (reg.test(email) === false) {
-                    let message_info = {'error': 'Не коректный email'};
+                    let message_info = {'error': 'Не корректный email'};
                     message(message_info);
                 } else {
                     let data = {'name': name, 'email': email, 'task': task};
